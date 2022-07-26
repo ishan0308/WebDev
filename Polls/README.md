@@ -1,4 +1,4 @@
 # Polls Website using Django
 
-Allows authorise owners to add polls
-Users can vote and view polls
+1. Allows authorise owners to add polls
+2. Users can vote and view polls
