@@ -1,0 +1,100 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: #fadde3;
+}
+
+#logo{
+    width:8rem;
+    height:4rem;
+    padding-left: 20px;
+    background-color: transparent;
+}
+
+#mainnav{
+    background-color: transparent;
+}
+
+
+#mainnav .navbar-nav a{
+    color:black;
+    font-size:1.25em;
+    font-weight: 600;
+    text-align: end;
+}
+
+#mainnav .navbar-nav a:hover{
+    font-weight: 500;
+    transform:translateY(-2px);
+}
+
+#mainnav svg{
+    margin: 0 2px;
+    color:black;
+}
+
+#navlinks{
+    display:flex;
+    justify-content: end;
+    width:100%;
+}
+
+#navlinks .nav-link{
+    padding: 0 2.5rem;
+}
+
+#navlinks:not(.show){
+    display:none;
+}
+
+#mainimg{
+    width:100%;
+}
+
+#reserve h3{
+    margin-top:170px;
+}
+
+#reserve input{
+    background-color:#f8e8ea ;
+    margin-right:20px;
+    width:300px;
+    height:40px;
+    margin-bottom:15px;
+}
+
+#reserve label{
+    font-size:1.25rem;
+}
+
+#reserve button:hover{
+    transform: translateY(-3px);
+    text-decoration:none;
+    box-shadow: 0 5px 5px #f72585;
+}
+
+#reserve button{
+    text-align:center;
+    width:150px;
+    background-color: #ff87ab;
+    border:1px solid black;
+    padding: 10px 20px;
+    font-size: 20px;
+    color:black;
+}
+
+#line{
+    border:1px solid #ff5d8f;
+    background-color: #ff5d8f;
+    margin-top:20px;
+}
+
+#footer{
+    padding:20px 0;
+    text-align: center;
+}
+
+#footer a{
+    color:black;
+    padding:0 10px;
+}
+

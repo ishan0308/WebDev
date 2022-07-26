@@ -1,0 +1,194 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: #fadde3;
+}
+
+#logo{
+    width:8rem;
+    height:4rem;
+    padding-left: 20px;
+    background-color: transparent;
+}
+
+#mainnav{
+    background-color: transparent;
+}
+
+
+#mainnav .navbar-nav a{
+    color:black;
+    font-size:1.25em;
+    font-weight: 600;
+}
+
+#mainnav .navbar-nav a:hover{
+    font-weight: 500;
+    transform:translateY(-2px);
+}
+
+#mainnav svg{
+    margin: 0 2px;
+    color:black;
+}
+
+#navlinks{
+    display:flex;
+    justify-content: end;
+    width:100%;
+}
+
+#navlinks .nav-link{
+    padding: 0 2.5rem;
+}
+
+#navlinks:not(.show){
+    display:none;
+}
+
+#mainimg{
+    width:100%;
+}
+
+
+#restaurent{
+    display:flex;
+    justify-content: space-evenly;
+    margin : 50px 0;
+}
+
+#info{
+    width:40%;
+    margin-right:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#info img{
+    max-width:100%;
+    max-height:450px;
+}
+
+#about{
+    width:50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about h3{
+    text-decoration: underline;
+    font-size:2rem;
+}
+
+#menuhead, #reserve h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#menu{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    margin:20px 30px;
+}
+
+#menu h5{
+    display:inline-block;
+    padding:10px 20px;
+    margin:10px 40px;
+    text-decoration:underline;
+    text-decoration-style: dashed;
+}
+
+#gotomenu{
+    display:flex;
+    justify-content: center;
+}
+#gotomenu a{
+    text-align:center;
+    width:150px;
+    background-color: #ff87ab;
+    border:1px solid black;
+    padding: 10px 20px;
+    font-size: 20px;
+    color:black;
+}
+
+#gotomenu a:hover, #reserve button:hover{
+    transform: translateY(-3px);
+    text-decoration:none;
+    box-shadow: 0 5px 5px #f72585;
+}
+
+#reserve div{
+    display:inline;
+}
+
+#reserve input{
+    background-color:#f8e8ea ;
+    margin-right:20px;
+    width:155px;
+    height:40px;
+    margin-bottom:15px;
+}
+
+#reserve label{
+    font-size:1.25rem;
+}
+
+
+#reserve button{
+    text-align:center;
+    width:200px;
+    background-color: #ff87ab;
+    border:1px solid black;
+    padding: 10px 20px;
+    font-size: 20px;
+    color:black;
+}
+
+#line{
+    border:1px solid #ff5d8f;
+    background-color: #ff5d8f;
+    margin-top:20px;
+}
+
+#footer{
+    padding:20px 0;
+    text-align: center;
+}
+
+#footer a{
+    color:black;
+    padding:0 10px;
+}
+
+@media(max-width:776px){
+    #restaurent{
+        flex-direction: column;
+        align-items: center;
+    }
+    #info{
+        width:100%;
+        height:auto;
+        order:1;
+        
+    }
+    #about{
+        width:100%;
+        height:auto;
+        text-align: unset;
+        order:0;
+        padding:0 30px 20px 30px;
+    }
+
+    #about h3{
+        text-align: center;
+    }
+
+    #reserve div{
+        display:block;
+    }
+}

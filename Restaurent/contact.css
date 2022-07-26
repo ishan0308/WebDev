@@ -1,0 +1,170 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: #fadde3;
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    width:8rem;
+    height:4rem;
+    padding-left: 20px;
+    background-color: transparent;
+}
+
+#mainnav{
+    background-color: transparent;
+    width:100%;
+    /* display:flex; */
+    /* justify-content: start; */
+}
+
+#mainnav .navbar-nav a{
+    color:black;
+    font-size:1.25em;
+    font-weight: 600;
+    padding:0 30px;
+    text-align:end;
+}
+
+#mainnav .navbar-nav a:hover{
+    font-weight: 500;
+    transform:translateY(-2px);
+}
+
+#mainnav svg{
+    margin: 0 2px;
+    color:black;
+}
+
+#mainnav .navbar-brand{
+    width:20%;
+}
+
+#navlinks{
+    /* display:flex; */
+    /* justify-content: center; */
+    width:40%;
+}
+
+#navlinks .nav-link{
+    padding: 0 2.5rem;
+}
+
+#navlinks:not(.show){
+    display:none;
+}
+
+#mainimg{
+    width:100%;
+}
+
+#line{
+    width:100%;
+    border:1px solid #ff5d8f;
+    background-color: #ff5d8f;
+    margin-top:20px;
+}
+
+#footer{
+    padding:20px 0;
+    text-align: center;
+}
+
+#footer a{
+    color:black;
+    padding:0 10px;
+}
+
+/*****************************************************/
+
+#outer{
+    width:90%;
+    display:flex;
+    flex-direction: column;
+    margin-top:60px;
+    border:2px solid #ff5d8f;
+}
+
+#option{
+    display: flex;
+    min-height:200px;
+    border-bottom: 2px solid #ff5d8f;
+}
+
+#heading{
+    text-align: start;
+    padding-left: 15px;
+    width:30%;
+    /* border:2px solid black; */
+    margin:0;
+    padding-top:20px;
+    
+}
+
+#info{
+    text-align:start;
+    padding-left:60px;
+    padding-top:20px;
+    width:70%;
+    margin:0;
+    font-size: 20px;
+}
+
+#heading h3{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    letter-spacing: 5px;
+    padding-left: 5px;
+    background-color: #ffb3c1;
+}
+
+#info a{
+    color:black;
+}
+
+#info img{
+    max-width:400px;
+    margin-bottom:30px;
+}
+
+@media(max-width:767.20px){
+    #mainnav{
+        display:flex;
+         justify-content: space-between;
+    }
+    #option{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    #heading{
+        text-align: center;
+        width:30%;
+        /* border:2px solid black; */
+        margin:0;
+        padding:0;
+        padding-top:20px;
+    }
+    
+    #info{
+        text-align:center;
+        width:70%;
+        margin:0;
+        padding:0;
+        padding-top:20px;
+    }
+    #info img{
+        max-width:90%;
+    }
+
+    #heading h3{
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        letter-spacing: 0;
+    }
+}
